@@ -1,0 +1,177 @@
+body {
+    background-repeat: repeat;
+    font-weight: 350 !important;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+ul {
+    line-height: 20px;
+}
+
+code {
+    max-height: 180px;
+}
+
+.mb-15 {
+    margin-bottom: 1.5%;
+}
+
+p.mb-15 {
+    margin-bottom: 0.75%;
+}
+
+.mt-15 {
+    margin-top: 1.5%;
+}
+
+.pt-15 {
+    padding-top: 1.5%;
+}
+
+.navbar-brand {
+    font-size: 1.75rem!important;
+}
+
+.navbar {
+    font-size: 1.5rem!important;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.optional {
+    opacity: 0.75;
+}
+
+.section-header {
+    font-size: 1.5em;
+    margin: 0 0 0.3em;
+}
+
+.unknown {
+    color: mediumpurple;
+}
+
+.good {
+    color: mediumseagreen;
+}
+
+.bad, .gray {
+    color: lightgray;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.navbar-brand img {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.section-header span {
+    margin-left: 8px;
+}
+
+#export, #import {
+    width: 100px;
+}
+
+button.loading .text {
+    display: none;
+}
+
+.dropdown-toggle::after {
+    content: none
+}
+
+.progress {
+    height: 2em;
+}
+
+.tag {
+    background-color: lightskyblue;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
+.comma {
+    color: transparent;
+    width: 0;
+    display: inline-block;
+}
+
+button .countdown, button .spinner {
+    display: none;
+}
+
+button.loading .countdown, button.loading .spinner {
+    display: initial;
+}
+
+.progress-bar.error {
+    background-color:  #e67e22;
+}
+
+html.dark .progress-bar.error {
+    background-color:  #ca6f1e;
+}
+
+/* Dark mode tweaks */
+html.dark .tag {
+    background-color: royalblue;
+}
+
+html.dark .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+html.dark a {
+    color: lightskyblue;
+}
+
+html.dark .progress-bar {
+    color: #fff;
+}
+
+.wayback-cdx-older {
+    filter: brightness(0.75);
+}
+
+.export {
+    display: none;
+}
+
+/*
+Use Stylus extension!
+
+https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
+https://addons.mozilla.org/en-US/firefox/addon/styl-us/
+
+.export {
+    display: revert!important;
+}
+*/
