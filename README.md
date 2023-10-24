@@ -1,1 +1,1 @@
-# exploring-wrold-top-youtube-channels
+# exploring-world-top-youtube-channels
